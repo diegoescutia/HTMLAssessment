@@ -53,6 +53,14 @@ li > img{
   list-style: none;
 }
 
-ol> li{
+ol > li:first-child{
   font-weight: bolder;
+}
+
+tr:nth-child(even){
+  background-color: yellow;
+}
+
+tr:nth-child(odd){
+  background-color: cyan;
 }
